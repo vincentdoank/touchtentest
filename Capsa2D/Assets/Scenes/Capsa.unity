@@ -3366,11 +3366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardDeck: {fileID: 1707849291}
-  capsaPlayerList:
-  - {fileID: 497999086}
-  - {fileID: 996433501}
-  - {fileID: 1143672801}
-  - {fileID: 318626189}
+  capsaPlayerList: []
   gameTimerText: {fileID: 474162539}
   avatar: {fileID: 11400000, guid: 55cf83e6c0866934383e1af9b22f441e, type: 2}
   gameStateManager: {fileID: 1704870084}
