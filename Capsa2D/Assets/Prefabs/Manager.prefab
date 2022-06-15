@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1529162431492932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4658810253607734}
+  - component: {fileID: 114513674589146544}
+  m_Layer: 5
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4658810253607734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529162431492932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114513674589146544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529162431492932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e6d67b24125fd45bfa88ebe013c4d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardList:
+  - cardID: ACE_SPADE
+    cardImage: {fileID: 21300000, guid: 971a6ae1f2eb7d24da8526fa6e56dff8, type: 3}
+    value: 0
+  - cardID: 2_SPADE
+    cardImage: {fileID: 21300000, guid: e2a68aa630b89c8429221c575a1262ab, type: 3}
+    value: 0
+  - cardID: 3_SPADE
+    cardImage: {fileID: 21300000, guid: 3bc973fddad84264383675bc5b3a8ec8, type: 3}
+    value: 0
+  - cardID: 4_SPADE
+    cardImage: {fileID: 21300000, guid: 1a1a36d941625f14fbe6b10c401d59a5, type: 3}
+    value: 0
+  - cardID: 5_SPADE
+    cardImage: {fileID: 21300000, guid: c88509ebbe781f94491531f258436b18, type: 3}
+    value: 0
+  - cardID: 6_SPADE
+    cardImage: {fileID: 21300000, guid: e7771b02d45b84344bc4d2cb05342fdc, type: 3}
+    value: 0
+  - cardID: 7_SPADE
+    cardImage: {fileID: 21300000, guid: e488fddca5c383e4983f5ebd05b339c4, type: 3}
+    value: 0
+  - cardID: 8_SPADE
+    cardImage: {fileID: 21300000, guid: e5b8b39594c2b934e8df4d6bdcee0d5d, type: 3}
+    value: 0
+  - cardID: 9_SPADE
+    cardImage: {fileID: 21300000, guid: 3426679e1fba9444893e251d0ae5e68c, type: 3}
+    value: 0
+  - cardID: 10_SPADE
+    cardImage: {fileID: 21300000, guid: 8c8e0f23139993948aba2dff52359b49, type: 3}
+    value: 0
+  - cardID: j_SPADE
+    cardImage: {fileID: 21300000, guid: 1f30c33354b1ae54b86c480dcf805ddd, type: 3}
+    value: 0
+  - cardID: Q_SPADE
+    cardImage: {fileID: 21300000, guid: abd68548277e07b45ab784bfb52eb4bf, type: 3}
+    value: 0
+  - cardID: K_SPADE
+    cardImage: {fileID: 21300000, guid: 95f934e279f43b54ba20f0ae688a3bcb, type: 3}
+    value: 0
+  - cardID: ACE_CLUB
+    cardImage: {fileID: 21300000, guid: 53d3e59ec12ceba49800bd627ce98333, type: 3}
+    value: 0
+  - cardID: 2_CLUB
+    cardImage: {fileID: 21300000, guid: f565c9662d59d394f9ffa510a895bbd0, type: 3}
+    value: 0
+  - cardID: 3_CLUB
+    cardImage: {fileID: 21300000, guid: 54c2b1bfb49312e4da2d187128fc9024, type: 3}
+    value: 0
+  - cardID: 4_CLUB
+    cardImage: {fileID: 21300000, guid: dd99ff65e8a58764f922a5118dc58f4e, type: 3}
+    value: 0
+  - cardID: 5_CLUB
+    cardImage: {fileID: 21300000, guid: 506b56255f0ec1048aad2c1edfdb6d3f, type: 3}
+    value: 0
+  - cardID: 6_CLUB
+    cardImage: {fileID: 21300000, guid: 40a997788e73ecb45a0cda36b9b23c2b, type: 3}
+    value: 0
+  - cardID: 7_CLUB
+    cardImage: {fileID: 21300000, guid: f2d7bb3781907444b973372a68914d9f, type: 3}
+    value: 0
+  - cardID: 8_CLUB
+    cardImage: {fileID: 21300000, guid: 66c25adb40b7d314f80a153b39f06682, type: 3}
+    value: 0
+  - cardID: 9_CLUB
+    cardImage: {fileID: 21300000, guid: fdffdd7a5b0bf7b41984097e02888c31, type: 3}
+    value: 0
+  - cardID: 10_CLUB
+    cardImage: {fileID: 21300000, guid: 9936822f845103c48b12490fea781fb0, type: 3}
+    value: 0
+  - cardID: J_CLUB
+    cardImage: {fileID: 21300000, guid: 7cc4a350df067f648acffa20d79194e9, type: 3}
+    value: 0
+  - cardID: Q_CLUB
+    cardImage: {fileID: 21300000, guid: fb8efa1bc2e87d244a3751bf50b40890, type: 3}
+    value: 0
+  - cardID: K_CLUB
+    cardImage: {fileID: 21300000, guid: 4bff970d35d0afd4a8c01500b453c616, type: 3}
+    value: 0
+  - cardID: ACE_HEART
+    cardImage: {fileID: 21300000, guid: ffecbf247d8765b46804c84783579f1f, type: 3}
+    value: 0
+  - cardID: 2_HEART
+    cardImage: {fileID: 21300000, guid: 797ab390f6298074f9cecbbc562fcc6f, type: 3}
+    value: 0
+  - cardID: 3_HEART
+    cardImage: {fileID: 21300000, guid: 9fc14755640901944b72fc3d19f9ee5d, type: 3}
+    value: 0
+  - cardID: 4_HEART
+    cardImage: {fileID: 21300000, guid: 05136dca5cbcd0e46a2a09e809a69df8, type: 3}
+    value: 0
+  - cardID: 5_HEART
+    cardImage: {fileID: 21300000, guid: cff3df19e62b2dd4a9e6f9ff395bdb22, type: 3}
+    value: 0
+  - cardID: 6_HEART
+    cardImage: {fileID: 21300000, guid: 2e7d5b3e33d4a0a42b94001c9993b51a, type: 3}
+    value: 0
+  - cardID: 7_HEART
+    cardImage: {fileID: 21300000, guid: 2f02757a8e8dd164e96b73fa3c2b1ad2, type: 3}
+    value: 0
+  - cardID: 8_HEART
+    cardImage: {fileID: 21300000, guid: 1383c6abe3858784cba980a5011bc128, type: 3}
+    value: 0
+  - cardID: 9_HEART
+    cardImage: {fileID: 21300000, guid: 905020b1a43b1c040bf9ca6cdb6a597b, type: 3}
+    value: 0
+  - cardID: 10_HEART
+    cardImage: {fileID: 21300000, guid: e1c42e84774cfd846b3fd6e42fd5b6a4, type: 3}
+    value: 0
+  - cardID: J_HEART
+    cardImage: {fileID: 21300000, guid: 74ffc74aa6d3e15418213a3d4478ab9a, type: 3}
+    value: 0
+  - cardID: Q_HEART
+    cardImage: {fileID: 21300000, guid: ba035afaf28fe9241bd7c711bc28f3c9, type: 3}
+    value: 0
+  - cardID: K_HEART
+    cardImage: {fileID: 21300000, guid: f8647806b62467942bc9c7968f2a9ff0, type: 3}
+    value: 0
+  - cardID: ACE_DIAMOND
+    cardImage: {fileID: 21300000, guid: 80f4df83779376e49a27cd902ee394f9, type: 3}
+    value: 0
+  - cardID: 2_DIAMOND
+    cardImage: {fileID: 21300000, guid: ac6d15821123f2040aba82b0f879f6f5, type: 3}
+    value: 0
+  - cardID: 3_DIAMOND
+    cardImage: {fileID: 21300000, guid: 472892c5c071b2643a59d452d0e8768b, type: 3}
+    value: 0
+  - cardID: 4_DIAMOND
+    cardImage: {fileID: 21300000, guid: 4b21d44a9a0799a48b9d2f69b9d07a95, type: 3}
+    value: 0
+  - cardID: 5_DIAMOND
+    cardImage: {fileID: 21300000, guid: affca5574b05b254bb97d542d4f8950b, type: 3}
+    value: 0
+  - cardID: 6_DIAMOND
+    cardImage: {fileID: 21300000, guid: d7f5e00b290aaac43bd534d36848bbcd, type: 3}
+    value: 0
+  - cardID: 7_DIAMOND
+    cardImage: {fileID: 21300000, guid: c4d0a25c726c9634fb759e0e6fac2155, type: 3}
+    value: 0
+  - cardID: 8_DIAMOND
+    cardImage: {fileID: 21300000, guid: b1eb8e371323b394284564e60c7f2ec6, type: 3}
+    value: 0
+  - cardID: 9_DIAMOND
+    cardImage: {fileID: 21300000, guid: 04dd7bb5426591b439bb440d9513393f, type: 3}
+    value: 0
+  - cardID: 10_DIAMOND
+    cardImage: {fileID: 21300000, guid: 3f4cf3072f1dcd24697640062c4a4e4f, type: 3}
+    value: 0
+  - cardID: J_DIAMOND
+    cardImage: {fileID: 21300000, guid: 54ec6ad5772f497419fe95413cb7d952, type: 3}
+    value: 0
+  - cardID: Q_DIAMOND
+    cardImage: {fileID: 21300000, guid: d97d4c926c9938648b6086dd6c15c638, type: 3}
+    value: 0
+  - cardID: K_DIAMOND
+    cardImage: {fileID: 21300000, guid: 401a5ab620bef7045a3ebef288d09634, type: 3}
+    value: 0
+  - cardID: RED_JOKER
+    cardImage: {fileID: 21300106, guid: e31728b16dc34a24495fcac50c2b6786, type: 3}
+    value: 0
+  - cardID: BLACK_JOKER
+    cardImage: {fileID: 21300104, guid: e31728b16dc34a24495fcac50c2b6786, type: 3}
+    value: 0
+  - cardID: 
+    cardImage: {fileID: 21300000, guid: 35dd492bf312b02439e481216caaeff7, type: 3}
+    value: 0
+  cardChanceList: []
